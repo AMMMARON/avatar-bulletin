@@ -1,4 +1,4 @@
-# Avatar Bulletin · غرفة أخبار نشرة أفاتار
+# Avatar Bulletin · 
 
 A bilingual newsroom for any presenter. Choose a character and voice, then produce a bulletin from your own sources. The operator console is at `/`, the English edition is at `/en/index.html`, and the audience player is at `/watch`.
 
@@ -6,11 +6,11 @@ Anyone can choose **Operator sign-in → Create a personal studio**. Save the ge
 
 ## First bulletin
 
-1. Open the studio and choose **دخول المشغّل**. The published studio has its own operator password.
-2. Choose **ربط المزوّدين**. Enter the Runway Developer API key, save, then fetch the Characters available to that API project. Select your character or enter an existing preset ID. Save the selection.
+1. Open the studio and choose **enter provider**. The published studio has its own operator password.
+2. Choose **pro connect**. Enter the Runway Developer API key, save, then fetch the Characters available to that API project. Select your character or enter an existing preset ID. Save the selection.
 3. Save the ElevenLabs API key and select its voice. Enter the LiveKit Cloud project URL (`wss://…livekit.cloud`), API key and secret. Its grants must support room management and agent dispatch. The server returns only configuration flags and non-secret settings.
 4. In the researcher view, collect RSS candidates or add a story with a source and notes. Select the story in the manager view. In the editor, review the evidence, edit the script and approve it. The local excerpt mode has no inference charge. The optional AI rewriting action sends the selected notes to Vercel AI Gateway only after operator confirmation.
-5. In production, build a rundown or request a timed suggestion. Rehearsal uses local sample data. **بدء البث** opens the cost confirmation for an actual session. Viewers can enter the waiting room, then receive synchronized video and audio from the avatar.
+5. In production, build a rundown or request a timed suggestion. Rehearsal uses local sample data. **live** opens the cost confirmation for an actual session. Viewers can enter the waiting room, then receive synchronized video and audio from the avatar.
 
 ## How a live segment travels
 
