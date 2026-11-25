@@ -1,0 +1,23 @@
+{
+  "name": "avatar-bulletin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node --env-file-if-exists=.env.local scripts/dev.js",
+    "test": "node --test test/*.test.js server/*.test.js worker/*.test.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.9.0",
+    "@vercel/oidc": "3.8.10",
+    "@vercel/sandbox": "^4.1.0",
+    "esbuild": "^0.28.2",
+    "fast-xml-parser": "^5.12.1",
+    "livekit-client": "^2.25.0",
+    "livekit-server-sdk": "^2.20.1"
+  }
+}

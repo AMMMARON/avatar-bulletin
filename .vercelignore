@@ -1,0 +1,12 @@
+.private/
+.local/
+.env*
+node_modules/
+worker/node_modules/
+worker/.env*
+worker/.local/
+worker/.private/
+test/
+public/assets/livekit.mjs
+server/worker-files.json
+server/sandbox-sdk.mjs

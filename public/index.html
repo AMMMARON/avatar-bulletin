@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f7f5ef" />
+    <title>غرفة الأخبار | نشرة أفاتار</title>
+    <link rel="icon" href="/mark.png" />
+    <link rel="stylesheet" href="/studio.css" />
+    <script src="/language.js"></script>
+    <script type="module" src="/studio.js"></script>
+  </head>
+  <body>
+    <a href="#main" class="skip">انتقل إلى المحتوى</a>
+    <div class="layout">
+      <aside class="sidebar" id="sidebar" aria-label="تنقّل الاستوديو">
+        <a href="#desk" class="brand" aria-label="نشرة أفاتار، غرفة الأخبار"
+          ><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span
+          ><span><b>نشرة أفاتار</b><small lang="en" dir="ltr">AVATAR BULLETIN</small></span></a
+        >
+        <div class="nav-body" id="navigation"></div>
+        <div id="account" class="account"></div>
+      </aside>
+      <button type="button" class="scrim" id="scrim" aria-label="إغلاق القائمة" hidden></button>
+      <div class="workspace">
+        <header class="topbar">
+          <div class="crumb">
+            <button
+              type="button"
+              id="menu"
+              class="icon-button menu-toggle"
+              aria-label="قائمة التنقل"
+              aria-controls="sidebar"
+              aria-expanded="false"
+            >
+              <canvas data-icon="menu"></canvas></button
+            ><span class="crumb-base">الاستوديو</span><span class="crumb-slash">/</span
+            ><strong id="crumb">غرفة الأخبار</strong>
+          </div>
+          <div class="top-actions">
+            <a class="language-link" data-language href="/en/index.html" lang="en" hreflang="en">English</a>
+            <span class="mode" id="mode"></span
+            ><a href="/watch.html" class="watch-link"><canvas data-icon="screen"></canvas> شاشة البث</a>
+          </div>
+        </header>
+        <main id="main" tabindex="-1"></main>
+      </div>
+    </div>
+    <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <noscript><p>فعّل JavaScript لاستخدام غرفة الأخبار.</p></noscript>
+  </body>
+</html>

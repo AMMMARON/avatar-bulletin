@@ -1,0 +1,14 @@
+{
+  "name": "bulletin-newsroom-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node agent.mjs start", "test": "node --test *.test.mjs" },
+  "dependencies": {
+    "@livekit/agents": "1.10.1",
+    "@livekit/agents-plugin-runway": "1.10.1",
+    "@livekit/rtc-node": "^1.2.2",
+    "livekit-server-sdk": "^2.13.3"
+  }
+}

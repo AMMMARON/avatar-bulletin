@@ -1,0 +1,11 @@
+node_modules/
+.private/
+.env*
+!.env.example
+.vercel/
+.local/
+public/assets/livekit.mjs
+public/assets/livekit.mjs.LICENSE.txt
+server/worker-files.json
+server/sandbox-sdk.mjs
+public/en/

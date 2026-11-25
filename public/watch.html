@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#161c1b" />
+    <title>شاشة البث | نشرة أفاتار</title>
+    <link rel="icon" href="/mark.png" />
+    <link rel="stylesheet" href="/studio.css" />
+    <script src="/language.js"></script>
+    <script type="module" src="/viewer.js"></script>
+  </head>
+  <body class="watch-page">
+    <header class="watch-header">
+      <a href="/" class="brand"
+        ><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span
+        ><span><b>نشرة أفاتار</b><small lang="en" dir="ltr">AVATAR BULLETIN</small></span></a
+      ><a href="/" class="watch-home">غرفة الأخبار</a>
+      <a class="language-link" data-language href="/en/watch.html" lang="en" hreflang="en">English</a>
+    </header>
+    <main class="watch-main">
+      <div class="watch-heading">
+        <h1>شاشة البث</h1>
+        <span id="public-phase" class="badge">جاري الاتصال</span>
+      </div>
+      <div id="screen" class="audience-screen">
+        <canvas class="signal-art" aria-hidden="true"></canvas>
+        <div class="audience-copy">
+          <h2>نشرة أفاتار</h2>
+          <p id="watch-message" role="status">جارٍ التحقق من إشارة الاستوديو…</p>
+        </div>
+        <div id="media"></div>
+      </div>
+      <div class="watch-controls">
+        <span>نشرة أفاتار <i></i> الاستوديو الرئيسي</span
+        ><button class="button primary" id="viewer-action" hidden></button>
+      </div>
+    </main>
+  </body>
+</html>
